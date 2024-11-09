@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #88C273;
+
+  }
+  
+  .navbar {
+    background-color: #FFF1DB;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+  }
+  
+  .navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    background-color: #575757;
+  }
+  
+  .gambar {
+    margin-left: 570px;
+    margin-top: 40px;
+    
+  }
+
+  .deskripsi {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font: bold;
+    text-align: center;
+  }
+  .footer  {
+    text-align: center;
+    background-color: #2c2a29; /* Warna gelap */
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+  }
+  .paragraf {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #b2bf26;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: #70e700;
+  }
+    body.dark-mode {
+        background-color: #121212;
+        color: white;
+    }

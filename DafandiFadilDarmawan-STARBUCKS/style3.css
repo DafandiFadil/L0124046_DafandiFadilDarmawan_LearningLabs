@@ -1,0 +1,78 @@
+/* Gaya untuk Form Starbucks */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f1e7; /* Warna latar belakang khas Starbucks */
+    color: #2c2a29; /* Warna teks */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: #ffffff; /* Latar belakang putih untuk formulir */
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #00704A; /* Hijau khas Starbucks */
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  input[type="text"]:focus,
+  textarea:focus {
+    border-color: #00704A;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 112, 74, 0.5);
+  }
+  
+  button {
+    background-color: #00704A; /* Hijau khas Starbucks */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005c3a; /* Warna hijau yang lebih gelap saat hover */
+  }
+  
+  @media (max-width: 500px) {
+    .form-container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  }
+  
